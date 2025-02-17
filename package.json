@@ -1,0 +1,28 @@
+{
+  "name": "calculator_tests",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/GonzaloPena1/test-modularised-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/GonzaloPena1/test-modularised-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloPena1/test-modularised-calculator.git"
+  },
+  "license": "ISC",
+  "author": "GonzaloPena1",
+  "type": "commonjs",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node calculator.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
